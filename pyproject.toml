@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "crcwafa"
+version = "0.1.0"
+description = ""
+authors = ["mohamed ayoub bihmane <bihmohamedayoub@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+openai = "^1.55.1"
+python-dotenv = "^1.0.1"
+azure-search-documents = "^11.5.2"
+identity = "^0.9.2"
+azure-identity = "^1.19.0"
+streamlit = "^1.40.2"
+vectorstore = "^0.0.0"
+requests = "^2.32.3"
+pypdf2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
